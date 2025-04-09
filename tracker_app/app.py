@@ -80,6 +80,6 @@ if __name__ == '__main__':
 
     # Uncomment when you're deploying to Render, comment when you're running locally
     # Render provides the PORT environment variable
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 5000))  
     # '0.0.0.0' means the app is available publicly (required for Render)
     app.run(host='0.0.0.0', port=port)
